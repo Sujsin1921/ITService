@@ -1,0 +1,334 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 May, 2020, 8:11:06 PM
+    Author     : sujsi
+*/
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+/*  header section Navigation*/
+
+.non{
+    display: block;
+    font-weight: bold;
+    border: none;
+    text-decoration:none; 
+    font-size: 22px;
+    width: 85px;
+}
+
+.header-section::before{
+    content: "";
+    position: absolute;
+    background: url('res/covera.jpg') no-repeat center center/cover ;
+    height:600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+.header-section{
+    display: flex;   
+    position: relative;
+    justify-content: center;    
+    flex-direction: column;
+    height: 650px; 
+    color: white;
+    padding-bottom: 60px;
+}
+
+.button{
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px 15px;
+    font-weight: 400;
+    font-size: 23px;
+    color: #f02626;
+}
+
+.button:hover{
+    background-color: #d4d4d4;
+    color: #f02626;
+}
+
+.writearea{
+    padding: 0px 35px;
+    line-height: 40px;
+}
+
+.writearea h2{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+
+.closebutton{
+    font-size: 28px;
+    transform: rotate(45deg);
+}
+
+/* Services section*/
+
+.back::before{
+    content: "";
+    position: absolute;
+    background: url('res/cover.jpg') no-repeat center center/cover ;
+    height: 610px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;  
+}
+
+.im{
+    width:160px;
+}
+
+.item-boxes{
+    height: 400px;
+}
+
+.section{
+    padding: 20px 0;
+}
+span{
+    font-size: 13px;
+    font-family: cursive;
+}
+.section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+.section-header span {
+    font-size: 60px;
+    color: rgba(0,0,0,.07);
+    z-index: 2;
+    font-family: montserrat,sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 100%;
+}
+.section-subtitle {
+    font-size: 14px;
+    color: #546e7a;
+    line-height: 26px;
+    font-family: open sans,sans-serif;
+    margin-bottom: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.section-header .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: montserrat,sans-serif;
+    font-weight: 700;
+    color: #263238;
+    position: relative;
+}
+
+@media (max-width:500px){
+    #carouselExampleControls {
+        display:none;
+    }
+}
+.services-item {
+    padding: 30px 15px;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.item-boxes {
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    margin: 15px 0;
+    webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.form-line{
+    padding: 10px;
+}
+.btns{
+    border-radius: 30px;
+
+}
+
+.subscribe-form .form-wrapper {
+    background-color: #fff;
+    padding: 58px 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+.subscribe-form .sub-title {
+    margin-bottom: 30px;
+}
+.subscribe-form .form-wrapper .form-group {
+    margin-bottom: 0;
+}
+.subscribe-form .form-wrapper .form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: none;
+    color: #848484;
+    text-transform: capitalize;
+    background: #f7f7f7;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-image: none;
+    background-clip: padding-box;
+}
+
+.subscribe-form .form-submit .btn {
+    width: 100%;
+    padding: 13px 30px;
+}
+
+.contact-form-width{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.Screen-caption {
+    position: absolute;  
+    right: 15%;
+    bottom: 20px;
+    top: 150px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.pad-head{
+    text-align: center;
+    padding: 0px 40px;
+    margin:15px;
+}
+
+.margin-center{
+    margin-left:200px;
+}
+
+.pad-top{
+    padding-top: 30px;
+}
+
+.widthm200{
+    max-width: 200px;
+}
+/* footer */
+.foot{
+    display: flex;
+}
+.foot-card{
+    width: 33%;
+}
+
+.insta{
+    padding: 6px 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.insta:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.facebook{
+    border-radius: 9px;
+    background-color: #3B5998;
+    color: white;
+    padding: 8px 12px;
+}   
+
+.facebook:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Billing page */
+.container{
+    padding: 5px 5px;
+}
+body
+{
+    counter-reset: Serial;           /* Set the Serial counter to 0 */
+}
+
+#Tablebill tr td:first-child:before
+{
+    counter-increment: Serial;      /* Increment the Serial counter */
+    content:  counter(Serial); /* Display the counter */
+}
+
+.form-box{
+    display: block;
+    padding: 8px 9px;
+}
+.form-box label{
+    display: block; 
+    font-size: 1.3em; 
+}
+.form-box input{
+    display: block;
+    width: 200px;
+    font-size: 1.1em;    
+}
+.btn{
+    margin:10px 5px;
+}
+
+.pad5{
+    margin: 3px 5px;
+}
+
+.select2-container .select2-selection--single{
+    height:34px !important;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #ccc !important; 
+    border-radius: 0px !important; 
+}
+
+.Billarea{
+    padding: 50px 5px;
+}
+
+.product-box input{
+    width:50%;
+}
+.form input{
+    display: inline;
+}
+.width600px{
+    width:600px;
+}
+.quantity input{
+    width:40px;
+}
